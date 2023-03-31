@@ -1,0 +1,79 @@
+.main__content-position{
+    display: flex;
+    margin: auto;
+}
+
+.main__filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 700px;
+}
+
+.label,
+.select__price,
+.select__rating{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(11, 85, 25, 1);
+    margin-bottom: 13px;
+}
+
+.select__sorting__game,
+.select__type__game{
+    padding: 3px 0;
+    margin-top: 13px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 12px;
+    color:rgba(72, 167, 172, 0.873);
+    border: 1px solid rgba(11, 85, 25, 1);
+    border-radius: 10px;
+    outline: none;
+}
+
+.select__sorting__game:hover,
+.select__type__game:hover{
+    box-shadow: 3px 3px 2px 1px rgba(11, 85, 25, 0.6);
+    border: 1px solid rgba(72, 167, 172, 0.873);
+}
+
+.div__form__present{
+    display: flex;
+    max-width: 200px;
+    margin-top: 13px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(11, 85, 25, 1);
+}
+
+.label-form-present{
+    margin-right: 20px;
+}
+
+.div__form__amount{
+    line-height: 40px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(11, 85, 25, 1);
+}
+
+.label-form-amount-1,
+.label-form-amount-2,
+.label-form-amount-3,
+.label-form-amount-4,
+.label-form-amount-5{
+    margin-right: 10px;
+}
+
+.div__type__game,
+.div__sorting__game {
+    display: flex;
+    flex-direction: column;
+}

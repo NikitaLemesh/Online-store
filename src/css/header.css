@@ -1,0 +1,85 @@
+.header {
+    background-color: rgba(72, 167, 172, 0.873);
+}
+
+.header__width{
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.h1{
+    line-height: 50px;
+    font-size: 40px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: rgba(11, 85, 25, 1);
+}
+
+.search{
+    width: 400px;
+    line-height: 30px;
+    outline: none;
+    border: 2px solid rgba(72, 167, 172, 0.873);
+    border-radius: 10px;
+    color: rgba(72, 167, 172, 1);
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 25px;
+}
+
+.header__form{
+    position: relative;
+}
+
+.search__loupe{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.search__btn{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    border: 1px solid rgba(11, 85, 25, 1);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.search:hover{
+    box-shadow: 2px 2px 2px 1px rgba(11, 85, 25, 1);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.search::placeholder {
+    color: rgba(11, 85, 25, 0.4);
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 17px;
+  }
+
+.figure__basket__container {
+    position: relative;
+}
+
+.figure__basket__container span {
+    position: absolute;
+    color: rgba(11, 85, 25, 1);
+    font-weight: 600;
+    top: calc(50% - 8px);
+    right: calc(50% - 10px);
+}
+
+.img__basket {
+    width: 50px;
+}
+
+@media screen and (max-width: 1024px){
+    .h1{
+        font-size: 32px;
+    }
+    
+    .search{
+        width: 300px;
+    }
+}
